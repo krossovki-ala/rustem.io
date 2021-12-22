@@ -1,0 +1,119 @@
+<!-- Выпадающее меню -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dropdown Navbar</title>
+	<style type="text/css">
+		/* Контейнер навигации */
+		.navbar {
+		  overflow: hidden;
+		  background-color: #333;
+		  font-family: Arial;
+		}
+
+		/* Ссылки в панели навигации */
+		.navbar a {
+		  float: left;
+		  font-size: 16px;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		/* Выпадающий контейнер */
+		.dropdown {
+		  float: left;
+		  overflow: hidden;
+		}
+
+		/* Кнопка выпадающего списка */
+		.dropdown .dropbtn {
+		  font-size: 16px;
+		  border: none;
+		  outline: none;
+		  color: white;
+		  padding: 14px 16px;
+		  background-color: inherit;
+		  font-family: inherit; /* Важно для вертикального выравнивания на мобильных телефонах */
+		  margin: 0; /* Важно для вертикального выравнивания на мобильных телефонах */
+		}
+
+		/* Добавить красный цвет фона для ссылок на навигационную панель при наведении курсора */
+		.navbar a:hover, .dropdown:hover .dropbtn {
+		  background-color: red;
+		}
+
+		/* Выпадающее содержимое (скрыто по умолчанию) */
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f9f9f9;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		/* Ссылки внутри выпадающего списка */
+		.dropdown-content a {
+		  float: none;
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		/* Добавить серый цвет фона для выпадающих ссылок при наведении курсора */
+		.dropdown-content a:hover {
+		  background-color: #ddd;
+		}
+
+		/* Показать выпадающее меню при наведении курсора */
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+                <style>
+
+H1 {
+
+font-size: 120%;
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+color: #333366;
+
+}
+
+
+	</style>
+</head>
+<body background="vv.jpg" text="#330066">
+<IMG SRC="lil.png" ALIGN="left" WIDTH=100 hight=150>
+<IMG SRC="w.gif" ALIGN="right" WIDTH=200>
+<P ALIGN="center">
+<FONT COLOR="black" SIZE="7" face="TIMES NEW ROMAN">
+ <B></B>КРОССОВКИ NIKE</FONT><BR>
+
+<div class="navbar">
+  <a href="log.html">Главная</a>
+  <a href="u.html">О нас</a>
+  <div class="dropdown">
+	<button class="dropbtn">Кроссовки
+	  <i class="fa fa-caret-down"></i>
+	</button>
+	<div class="dropdown-content">
+	  <a href="ggg.html">Nike Air Jordan 1</a>
+	  <a href="force.html">Nike Air Foce</a>
+	  <a href="sb.html">Nike SB</a>
+          <a href="blazer.html">Nike Blazer</a>
+          <a href="react.html">Nike React Vision</a>
+	</div>
+  </div>
+</div>
+<FONT COLOR="black" SIZE="6" face="century gothic">
+<B>НАШ МАГАЗИН ОТКРЫЛСЯ!!!</B></font><br>  
+<P Align="center">
+<video src="ya.mp4" controls> </video>
+</body>
+</html>
